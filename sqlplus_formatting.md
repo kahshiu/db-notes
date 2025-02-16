@@ -46,6 +46,11 @@
     - choose `justify left` or `justify right` or `justify center`
     - `heading` to change column name
         - `|` split column name into next text line, "Order|Date"
+- display for groups 
+    - you can use `break on ${column_name}`
+    - order records according to column name (that acts as group keys)
+    - then break on those columns
+    - sqlplus will hide those group keys and print value when it sees different group keys
 - inherit styling from another column
     - inherit from `REQURED_DATE` styling (via COLUMN command)
     - column `ORDER_DATE` like `REQUIRED_DATE` heading "Order Date"
