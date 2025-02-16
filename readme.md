@@ -1,0 +1,1 @@
+This is a collection of my notes for oracle database. Feel free to browse through.
