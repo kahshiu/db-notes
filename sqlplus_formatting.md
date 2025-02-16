@@ -51,12 +51,17 @@
     - order records according to column name (that acts as group keys)
     - then break on those columns
     - sqlplus will hide those group keys and print value when it sees different group keys
+- compute for groups
+    - you can use `compute` on groups 
+    - for a group of columns, compute `sum` or `avg` or `count` or `minimum` or `maximum`, and others 
+    - check oracle [documentation](https://docs.oracle.com/database/121/SQPUG/ch_six.htm#SQPUG016)
+    COMPUTE SUM LABEL 'Total: ' OF Subtotal ON OrderNumber
 - inherit styling from another column
     - inherit from `REQURED_DATE` styling (via COLUMN command)
     - column `ORDER_DATE` like `REQUIRED_DATE` heading "Order Date"
 
 
-
 ### Reference Resources
 - [formatting examples - Oracle](https://docs.oracle.com/database/121/SQPUG/ch_six.htm#SQPUG016)
 - [formatting model - Oracle](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlqr/Format-Models.html#GUID-291CA766-0B7D-4336-954A-B8A23036F6ED)
+- [formatting query result - Oracle documentation](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqpqr/index.html#GUID-2F355A6A-2E36-46CE-AF30-6A2F5B9B8A0F0)

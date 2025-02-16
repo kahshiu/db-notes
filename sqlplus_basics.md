@@ -61,6 +61,15 @@ SQL> set sqlprompt "Hello> "
 Hello> _
 ```
 
+- **sqlterminator**
+customise terminator, default is `;`
+```
+SQL> show sqlterminator
+sqlterminator ";"
+SQL> set sqlterminator ':';
+SQL> select 1 from dual:
+```
+
 - **feedback on/ off**
 ```
 CUSTOMERNAME

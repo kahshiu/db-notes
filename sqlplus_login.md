@@ -21,3 +21,12 @@ Login using SqlPlus:
     - when asked for username, type `SAT0800RDS01`
     - when asked for password, type `SAT0800RDS01@orcl`
     - prompt will not ask for hostname
+
+- you can also change password using `password`
+    ```
+    SQL> password
+    changing password for STUDENT1
+    Old password:
+    New password: 
+    Retype ew password: _
+    ```
