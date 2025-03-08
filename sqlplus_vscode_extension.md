@@ -1,0 +1,2 @@
+(Introduction to Oracle SQL Developer -- vscode extension)[https://www.youtube.com/watch?v=IzbAWawWPNQ]
+(Oracle SQL Developer -- vscode extension -- Debugger)[https://www.youtube.com/watch?v=AyE44WXwTaE]
